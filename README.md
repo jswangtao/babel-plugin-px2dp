@@ -88,18 +88,18 @@ px2dp(10)
 ## 如何使用
 
 ```
-yarn add @jswangtao/babel-plugin-px2dp --dev
+yarn add @jswangtao/babel-plugin-px2dp
 ```
 
 在 babel.config.js 中添加插件配置
 
 ```
  [
-      "@jswangtao/px2dp",
-      {
-        uiWidth: 750, // ui设计稿宽度
-        includes: ["pages"], // 插件生效的文件夹
-        excludes: []      // 插件不生效的文件夹
-      }
+  "@jswangtao/px2dp",
+    {
+      uiWidth: 750, // ui设计稿宽度
+      includes: ["pages"], // 插件生效的文件夹
+      excludes: []      // 插件不生效的文件夹
+    }
  ]
 ```
